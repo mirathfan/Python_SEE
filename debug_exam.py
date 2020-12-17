@@ -69,7 +69,7 @@ the following format:
 
 Line 1: A positive integer n1
 representing the number of key value
-pairs in data1
+pairs in data1 
 Lines 2 to n1+1: Two integers k v
 per line representing the key and
 value (these n1 key value pairs are
@@ -92,7 +92,7 @@ dup (the dictionary returned)
 '''
 
 import sys
-if __name__ == '__main__':
+if _name_ == '_main_':
     data1 = {}
     n1 = int(input())
     for _ in range(n1):
